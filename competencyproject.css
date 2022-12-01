@@ -1,0 +1,130 @@
+header {
+    padding-top: 20px;
+    background-color: #FFFDFD;
+    height: 100px;
+}
+body {
+    background-color: #FFDEE3;
+    color: #616A6B;
+    background-image: linear-gradient(to bottom,#FFFFFF, #FFDEE3);
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    font-size: 20px;
+    text-align: center;
+    background-color: #D3D4D8;
+    float: left;
+    top: 0;
+    Left: 0;
+    width: 150px;
+    height: 600px;
+}
+
+nav a:link {
+    color: #616A6B;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color: #A52A2A;
+}
+
+nav a {
+    transition: color 2s linear;
+}
+main {
+    margin-left: 160px;
+}
+div {
+    text-align: center;
+}
+hr {
+    border: 2px;
+    border-style: solid;
+    border-color: gray;
+    width: 144px;
+    margin-left: 0em;
+    height: 2px;
+}
+#image-row {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+hr {
+    height: 0px;
+}
+.body-line {
+    width: 100%;
+    height: 0px;
+    border: solid;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
+    border-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #B4B4B4;
+}
+#line {
+   height: 50px;
+}
+table {
+    margin-left: 673px;
+    width: 200px;
+    Height: 200px;
+    background-color:#FFDEE3;
+    border: 2px solid #616A6B;
+    border-collapse: collapse;
+}
+th {
+    padding: 0.5em;
+    border: 2px solid #616A6B;
+}
+td {
+    border: 2px solid #616A6B;
+    text-align: center;
+}
+tr:nth-of-type(even) {
+	background-color: #D3D4D8;
+}
+#empty-space {
+    height: 235px;
+    margin-top:10px;
+    margin-bottom:50px;
+}
+label {
+	float: left;
+	display: block;
+	width: 140px;
+	padding-right: 5px;
+	text-align: right;
+}
+input, textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"]{
+	margin-left: 140px;
+}
+form {
+    border: solid #616A6B;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 200px;
+    margin-left: 580px;
+    padding-top: 10px;
+}
+#submit-required {
+    margin-left: 655px
+}
